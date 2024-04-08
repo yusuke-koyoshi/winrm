@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/masterzen/winrm/soap"
+	"github.com/yusuke-koyoshi/winrm/soap"
 	. "gopkg.in/check.v1"
 )
 

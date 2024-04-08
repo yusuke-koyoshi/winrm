@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/masterzen/winrm/soap"
+	"github.com/yusuke-koyoshi/winrm/soap"
 )
 
 var soapXML = "application/soap+xml"

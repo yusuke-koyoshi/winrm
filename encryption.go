@@ -13,7 +13,7 @@ import (
 
 	"github.com/bodgit/ntlmssp"
 	ntlmhttp "github.com/bodgit/ntlmssp/http"
-	"github.com/masterzen/winrm/soap"
+	"github.com/yusuke-koyoshi/winrm/soap"
 )
 
 type Encryption struct {

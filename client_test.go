@@ -3,14 +3,12 @@ package winrm
 import (
 	"bytes"
 	"crypto/tls"
+	"net"
 	"net/http"
 	"strings"
-
-	"github.com/masterzen/winrm/soap"
-
-	"net"
 	"time"
 
+	"github.com/yusuke-koyoshi/winrm/soap"
 	. "gopkg.in/check.v1"
 )
 

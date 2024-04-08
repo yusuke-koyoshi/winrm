@@ -7,12 +7,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/masterzen/winrm/soap"
-
 	"github.com/jcmturner/gokrb5/v8/client"
 	"github.com/jcmturner/gokrb5/v8/config"
 	"github.com/jcmturner/gokrb5/v8/credentials"
 	"github.com/jcmturner/gokrb5/v8/spnego"
+	"github.com/yusuke-koyoshi/winrm/soap"
 )
 
 // Settings holds all the information necessary to configure the provider

@@ -86,7 +86,7 @@ For the fast version (this doesn't allow to send input to the command) and it's 
 package main
 
 import (
-	"github.com/masterzen/winrm"
+	"github.com/yusuke-koyoshi/winrm"
 	"os"
 )
 
@@ -104,7 +104,7 @@ or
 ```go
 package main
 import (
-  "github.com/masterzen/winrm"
+  "github.com/yusuke-koyoshi/winrm"
   "fmt"
   "os"
 )
@@ -129,7 +129,7 @@ By passing a TransportDecorator in the Parameters struct it is possible to use d
 ```go
 package main
 import (
-  "github.com/masterzen/winrm"
+  "github.com/yusuke-koyoshi/winrm"
   "fmt"
   "os"
 )
@@ -158,7 +158,7 @@ package main
 import (
   "os"
   "fmt"
-  "github.com/masterzen/winrm"
+  "github.com/yusuke-koyoshi/winrm"
 )
 
 endpoint := winrm.NewEndpoint("srv-win", 5985, false, false, nil, nil, nil, 0)
@@ -198,7 +198,7 @@ By passing a Dial in the Parameters struct it is possible to use different diale
 package main
      
  import (
-    "github.com/masterzen/winrm"
+    "github.com/yusuke-koyoshi/winrm"
     "golang.org/x/crypto/ssh"
     "os"
  )
@@ -275,7 +275,7 @@ For using HTTPS authentication with x 509 cert without checking the CA
 package main
 
 import (
-    "github.com/masterzen/winrm"
+    "github.com/yusuke-koyoshi/winrm"
     "log"
     "os"
 )
