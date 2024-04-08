@@ -103,6 +103,7 @@ func ParseExecuteCommandResponse(response string) (commandId string, err error) 
 		return commandId, nil
 
 	default:
+		fmt.Printf("response=%s", response)
 		return "", fmt.Errorf("unsupported action: %v", action)
 	}
 }
